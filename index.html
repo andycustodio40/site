@@ -64,6 +64,45 @@
         </article>
     </section>
 
+    <section id="habilidades">
+
+        <h2>Habilidades e tecnologias</h2>
+
+        <table>
+
+            <thead>
+                <tr>
+                    <th>Tecnologia</th>
+                    <th>Nível</th>
+                    <th>Descrição</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>HTML</td>
+                    <td>Iniciante</td>
+                    <td>Capaz de construir páginas.</td>
+                </tr>
+
+                <tr>
+                    <td>CSS</td>
+                    <td>Intermediario</td>
+                    <td>Experiencia com flexbox.</td>
+                </tr>
+
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Básico</td>
+                    <td>Desenvolvimento de scripts.</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </section>
+
     <footer>
         <p>Direitos reservado a Anderson</p>
 
@@ -77,6 +116,41 @@
                 E-mail: <a href="mailto:anderson@anderson.com">anderson@anderson.com</a> <br>
                 Telefone: <a href="tel:+55 48 988429999">+55 48 988429999</a>
             </address>
+
+            <form action="">
+
+                <label for="nome">Nome: </label>
+                <input type="text" id="nome" name="nome" required> <br>
+
+                <label for="email">E-mail: </label>
+                <input type="email" id="email" name="email" required> <br>
+
+                <label for="telefone">Telefone: </label>
+                <input type="tel" id="telefone" name="telefone"> <br>
+
+                <label for="assunto">Assunto: </label>
+                <select name="assunto" id="assunto">
+                    <option value="orcamento">Orçamento</option>
+                    <option value="duvida">Dúvida</option>
+                    <option value="outro">Outro</option>
+                </select>
+
+                <br>
+
+                <label for="mensagem">Mensagem: </label>
+                <textarea name="mensagem" id="mensagem" cols="20" rows="5" required></textarea>
+
+                <br>
+
+                <input type="checkbox" id="inscricao" name="inscricao">
+                <label for="incricao">Deseja receber minha newsletter? Fique por dentro.</label>
+
+                <br>
+
+                <input type="submit" value="Enviar mensagem">
+
+
+            </form>
 
         </section>
 
